@@ -77,10 +77,9 @@ scene.add(directionalLight);
 const loader = new GLTFLoader();
 
 loader.load(
-  '/models/forgottenlandmodel.glb',
-
+  `${import.meta.env.BASE_URL}models/forgottenlandmodel.glb`,
   (gltf) => {
-    const model = gltf.scene;
+    scene.add(gltf.scene);
 
     // Calculate the model's dimensions
     const box = new THREE.Box3().setFromObject(model);
