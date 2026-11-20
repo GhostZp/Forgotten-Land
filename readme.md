@@ -1,1 +1,1 @@
-Website running in: https://users.metropolia.fi/~annakall/ForgottenLand/index.html
+Website running in: https://users.metropolia.fi/~annakall/Forgottenland2.0/
